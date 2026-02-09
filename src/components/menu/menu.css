@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;800&display=swap');
+
+.menu-section {
+  padding: 60px 5%;
+  background-color: #ffffff;
+  font-family: 'Rethink Sans', sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.menu-header {
+  margin-bottom: 40px;
+}
+
+.menu-header h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.title-underline {
+  width: 60px;
+  height: 4px;
+  background-color: #ff8225; /* Your Theme Orange */
+  border-radius: 2px;
+}
+
+/* General Grid Styling */
+.menu-grid {
+  display: grid;
+  /* This creates the 3-column layout seen in your screenshot */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 650px) {
+  .menu-section {
+    padding: 40px 20px;
+  }
+
+  .menu-header h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .title-underline {
+    margin: 0 auto;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr; /* Stacked cards on mobile */
+    gap: 20px;
+  }
+}

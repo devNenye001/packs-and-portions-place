@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 60px 20px 20px 20px;
+  /* Applying Rethink Sans as the primary font */
+  font-family: 'Rethink Sans', sans-serif; 
+  overflow: hidden;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-section h2, 
+.footer-section h3 {
+  /* Applying Times New Roman for headers */
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  font-weight: 400; /* Times looks best at normal weight for this style */
+}
+
+.footer-section h3 {
+  font-size: 1.6rem;
+}
+
+.footer-section h2 {
+  font-size: 2rem;
+  margin: 15px 0;
+  letter-spacing: 0.5px;
+}
+
+.footer-section p {
+  color: #d1d1d1;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  color: #ff8225;
+  font-weight: 700;
+}
+
+.label {
+  color: #ff8225;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+/* Center Section Branding */
+.center {
+  text-align: center;
+}
+
+.footer-logo img {
+  height: 85px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  max-width: 320px;
+  margin: 0 auto 25px auto;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.social-icons a {
+  background: #ffffff;
+  color: #1a1a1a;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid #333333;
+  padding-top: 25px;
+  font-size: 0.9rem;
+  color: #a0a0a0;
+}
+
+.bottom-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-perks {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.footer-perks li {
+  margin-bottom: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .center {
+    grid-column: span 2;
+    order: -1;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 650px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 50px;
+  }
+  .center {
+    grid-column: span 1;
+  }
+  .bottom-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .footer-perks {
+    display: inline-block;
+    text-align: left;
+  }
+}

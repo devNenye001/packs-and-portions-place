@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700;800&display=swap');
+
+.food-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0; /* Subtle border seen in your design */
+  border-radius: 25px; /* High radius for that soft look */
+  overflow: hidden;
+  font-family: 'Rethink Sans', sans-serif;
+  width: 100%;
+  max-width: 320px;
+  padding-bottom: 15px;
+}
+
+.food-image-container {
+  width: 100%;
+  padding: 12px; /* Padding inside the card for the image */
+  box-sizing: border-box;
+}
+
+.food-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px; /* Internal rounding for the image */
+}
+
+.food-info {
+  padding: 0 20px 10px 20px;
+  text-align: left; /* Design is left-aligned */
+}
+
+.food-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  min-height: 3rem; /* Ensures alignment across rows */
+}
+
+.food-price {
+  font-size: 1.5rem;
+  font-weight: 500; /* Extra bold price */
+  color: #000000;
+  margin: 0;
+}
+
+/* Tablet & Mobile Grid adjustments */
+@media (max-width: 768px) {
+  .food-card {
+    max-width: 100%;
+  }
+  
+  .food-image {
+    height: auto;
+  }
+}
