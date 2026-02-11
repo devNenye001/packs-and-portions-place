@@ -58,8 +58,4 @@
     margin: 0 auto;
   }
 
-  .menu-grid {
-    grid-template-columns: 1fr; /* Stacked cards on mobile */
-    gap: 20px;
-  }
 }
