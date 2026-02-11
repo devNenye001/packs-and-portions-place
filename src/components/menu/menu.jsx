@@ -43,7 +43,6 @@ const Menu = () => {
       { id: 304, name: "Goat Meat", price: "500", image: "/p4.png" },
       { id: 305, name: "Kpomo", price: "500", image: "/p5.png" },
       { id: 306, name: "Roundabout\\Towel\\Liver", price: "500", image: "/p6.png" },
-      { id: 307, name: "Cow Head\\ Ox Tail", price: "500", image: "/cow-head.png" },
     ]
   },
   {
