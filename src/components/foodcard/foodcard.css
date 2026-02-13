@@ -56,4 +56,21 @@
   .food-image {
     height: auto;
   }
+
+  .food-info {
+    font-size: 16px;
+  }
+  .food-price {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .food-info {
+    font-size: 10px;
+  }
+  .food-price {
+    font-size: 16px;
+  }
 }
