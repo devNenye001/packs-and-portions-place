@@ -9,42 +9,56 @@ const Menu = () => {
     {
       category: "Breakfast Experience",
       items: [
-        { id: 101, name: "Hot Akara with Pap\\Custard\\Quaker Oats", price: "1500", image: "/b1.png" },
-        { id: 102, name: "Moi-moi with Pap\\Custard\\Quaker Oats", price: "1500", image: "/b2.png" },
-        { id: 103, name: "Hot Okpa with Pap\\Custard\\Quaker Oats", price: "1800", image: "/b3.png" },
-        { id: 104, name: "Yam and Egg Sauce", price: "2200", image: "/b4.png" },
+        { id: 101, name: "Hot Akara with Pap\\Custard\\Quaker Oats", price: "1700", image: "/b1.png" },
+        { id: 102, name: "Moi-moi with Pap\\Custard\\Quaker Oats", price: "2200", image: "/b2.png" },
+        { id: 103, name: "Hot Okpa with Pap\\Custard\\Quaker Oats", price: "2200", image: "/b3.png" },
+        { id: 104, name: "Yam and Egg Sauce", price: "2900", image: "/b4.png" },
         { id: 105, name: "White Rice & peppered stew\\Banga stew\\green veggies", price: "1500", image: "/b5.png" },
-        { id: 106, name: "Bread Sandwich toast with Lipton\\Coffee\\green tea\\milk & milo", price: "1900", image: "/b6.png" },
+        { id: 106, name: "Bread Sandwich toast with Lipton\\Coffee\\green tea\\milk & milo", price: "2500", image: "/b6.png" },
         { id: 107, name: "Beans and Plantain porridge", price: "2200", image: "/b7.png" },
-        { id: 108, name: "Fried Plantain and egg sauce", price: "1200", image: "/b8.png" },
-        { id: 109, name: "Stir Fried Indomie noodles garnished with fried eggs \\ veggies", price: "1700", image: "/b9.png" },
+        { id: 108, name: "Fried Plantain and egg sauce", price: "2900", image: "/b8.png" },
+        { id: 109, name: "Stir Fried Indomie noodles garnished with fried eggs \\ veggies", price: "2200", image: "/b9.png" },
       ]
     },
     {
       category: "Lunch\\Dinner",
       items: [
-        { id: 201, name: "Local Jollof rice", price: "1500", image: "/l1.png" },
-        { id: 202, name: "Jollof Rice", price: "1500", image: "/l2.png" },
-        { id: 203, name: "Fried Rice", price: "1800", image: "/l3.png" },
-        { id: 204, name: "Yam Porridge", price: "2000", image: "/l4.png" },
-        { id: 205, name: "Fisherman Porridge yam", price: "2000", image: "/l5.png" },
-        { id: 206, name: "Coconut Rice", price: "2000", image: "/l6.png" },
+        { id: 201, name: "Native rice", price: "900", image: "/l1.png" },
+        { id: 202, name: "Jollof Rice", price: "1000", image: "/l2.png" },
+        { id: 203, name: "Fried Rice", price: "1050", image: "/l3.png" },
+        { id: 204, name: "Yam Porridge", price: "2200", image: "/l4.png" },
+        { id: 205, name: "Fisherman Porridge yam", price: "2200", image: "/l5.png" },
+        { id: 206, name: "Special Coconut Rice", price: "2200", image: "/l6.png" },
         { id: 207, name: "Spaghetti with veggies", price: "2000", image: "/l7.png" },
         { id: 208, name: "Beans Porridge", price: "1500", image: "/l8.png" },
-        { id: 209, name: "Plaintain Porridge", price: "2000", image: "/l9.png" },
+        { id: 209, name: "Plaintain Porridge", price: "2200", image: "/l9.png" },
       ]
     },
     {
     category: "Proteins",
     items: [
       { id: 301, name: "Beef", price: "500", image: "/p1.png" },
-      { id: 302, name: "Chicken", price: "4500", image: "/p2.png" },
-      { id: 303, name: "Fried Fish", price: "1000", image: "/p3.png" },
+      { id: 302, name: "Chicken", price: "1800", image: "/p2.png" },
+      { id: 303, name: "Fried Fish", price: "2000", image: "/p3.png" },
       { id: 304, name: "Goat Meat", price: "500", image: "/p4.png" },
       { id: 305, name: "Kpomo", price: "500", image: "/p5.png" },
       { id: 306, name: "Roundabout\\Towel\\Liver", price: "500", image: "/p6.png" },
     ]
   },
+  // Add this section to your existing menuData array
+{
+  category: "Soups",
+  items: [
+    { id: 701, name: "Egusi", price: "1000", image: "/soup1.png" },
+    { id: 702, name: "Oha", price: "1000", image: "/soup4.png" },
+    { id: 703, name: "Bitterleaf", price: "1000", image: "/soup7.jpg" },
+    { id: 704, name: "Nsala and soup", price: "1500", image: "/soup9.jpg" },
+    { id: 705, name: "Afang soup", price: "1500", image: "/soup10.jpg" },
+    { id: 706, name: "Edikaikong", price: "1500", image: "/soup5.jpg" },
+    { id: 707, name: "Vegetable soup", price: "1500", image: "/soup2.png" },
+    { id: 708, name: "Vegetable okro", price: "1500", image: "/soup8.jpg" },
+  ]
+},
   {
     category: "Swallows",
     items: [
@@ -81,8 +95,18 @@ const Menu = () => {
       { id: 610, name: "Point & Kill", price: "20,000", image: "/n10.png" },
       { id: 611, name: "Peppered Kpomo", price: "3000", image: "/n11.png" },
       { id: 612, name: "Isiewu", price: "10,000", image: "/n12.jpg" },
+      { id: 613, name: "Vegetable Dry Fish", price: "4000", image: "/n13.jpg" },
+      { id: 614, name: "Vegetable Chicken", price: "4000", image: "/n14.jpg" },
     ]
-  }
+  },
+  // Add this section to your existing menuData array
+{
+  category: "Drinks",
+  items: [
+    { id: 801, name: "Water", price: "300", image: "/water.jpg" },
+    { id: 802, name: "Coke", price: "500", image: "/coke.jpg" },
+  ]
+}
   ];
 
   const containerVariants = {

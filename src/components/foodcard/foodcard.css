@@ -20,6 +20,8 @@
 .food-image {
   width: 100%;
   height: auto;
+  max-height: 300px;
+  min-height: 250px;
   object-fit: cover;
   border-radius: 20px; /* Internal rounding for the image */
 }

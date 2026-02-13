@@ -53,9 +53,9 @@ const Footer = () => {
             We serve freshly cooked Nigerian meals that fill you up and keep you coming back for more.
           </p>
           <div className="social-icons">
-            <Motion.a href="#" whileHover={{ scale: 1.2, rotate: 5 }}><FacebookIcon /></Motion.a>
-            <Motion.a href="#" whileHover={{ scale: 1.2, rotate: -5 }}><InstagramIcon /></Motion.a>
-            <Motion.a href="#" whileHover={{ scale: 1.2, rotate: 5 }}><TiktokIcon /></Motion.a>
+            <Motion.a href="https://www.facebook.com/packs.portionsplace" whileHover={{ scale: 1.2, rotate: 5 }}><FacebookIcon /></Motion.a>
+            <Motion.a href="https://www.instagram.com/pack&portion place" whileHover={{ scale: 1.2, rotate: -5 }}><InstagramIcon /></Motion.a>
+
           </div>
         </Motion.div>
 
