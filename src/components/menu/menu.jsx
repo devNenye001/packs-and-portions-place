@@ -32,6 +32,7 @@ const Menu = () => {
         { id: 207, name: "Spaghetti with veggies", price: "2000", image: "/l7.png" },
         { id: 208, name: "Beans Porridge", price: "1500", image: "/l8.png" },
         { id: 209, name: "Plaintain Porridge", price: "2200", image: "/l9.png" },
+        { id: 210, name: " Boiled Yam and Ugba stew", price: "3900", image: "/n16.png" },
       ]
     },
     {
@@ -92,7 +93,7 @@ const Menu = () => {
       { id: 607, name: "Nkwobi", price: "3500", image: "/n7.png" },
       { id: 608, name: "Peppered Goat leg", price: "3500", image: "/n8.png" },
       { id: 609, name: "Peppered Snail", price: "5000", image: "/n9.png" },
-      { id: 610, name: "Point & Kill", price: "20,000", image: "/n10.png" },
+      { id: 610, name: "Barbecue Fish", price: "20,000", image: "/n15.jpeg" },
       { id: 611, name: "Peppered Kpomo", price: "3000", image: "/n11.png" },
       { id: 612, name: "Isiewu", price: "10,000", image: "/n12.jpg" },
       { id: 613, name: "Vegetable Dry Fish", price: "4000", image: "/n13.jpg" },
